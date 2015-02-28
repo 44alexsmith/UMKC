@@ -1,0 +1,11 @@
+
+class Shape {
+protected:
+	int numOfSides, length, width;
+public:
+	virtual double area() = 0;  //A pure virtual function prototype
+};
+
+
+
+If a class has pure virtual functions, it is considered an abstract class and can’t be instantiated. In this case, Shape is an abstract class, and you can’t create an actual Shape object.

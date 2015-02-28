@@ -1,0 +1,19 @@
+#define DEBUG
+
+
+
+// While not at the end of the file...
+	while(!fin.eof())
+	{
+		// Grab a line from file
+		getline(fin, lineIn);
+#ifdef DEBUG
+		cout << "str = '" << lineIn << "'" << endl;
+#endif
+
+
+#ifdef DEBUG
+		// If DEBUG is on, pause for the user to read status messages
+		system("pause");
+		cout << endl << endl;
+#endif

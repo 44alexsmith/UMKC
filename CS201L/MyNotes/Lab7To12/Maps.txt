@@ -1,0 +1,17 @@
+Maps
+	map<type1, type2> variable_name;
+
+Maps are similar to vectors in that you can add elements to them. However, they work in key-value pairs. type1 and type2 correspond to the types of data you want to associate. To store a list of moons, you can use the planet name as a key, and the name of the moon as a value. For example:
+	map<string, string> moons;
+	moons[“Mercury”] = “None”;
+	moons[“Venus”] = “None”;
+	moons[“Earth”] = “Moon”;
+	moons[“Mars”] = “Deimos, Phobos”;
+
+When you use iterators (below) with maps, the key is called first and the value is called second.
+
+Iterators
+	map<type1, type2>::iterator variable_name;
+
+
+Refer: Assignment 9

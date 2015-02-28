@@ -1,0 +1,20 @@
+class Shape {
+protected:
+	int numOfSides, length, width;
+public:
+	virtual double area() = 0;
+};
+
+class Rectangle : public Shape {
+// Use length/width normally
+  double area() {
+    return length * width;
+  }
+);
+
+class Triangle : public Shape {
+// Use length as base
+   double area() {
+      return 0.5 * length * width;
+   }
+};

@@ -1,0 +1,10 @@
+9/30/2014	Project9	9/1/2014	Assigned
+10/30/2014	Project8	9/2/2014	Assigned
+11/30/2014	Project7	9/3/2014	Assigned
+9/1/2014	Project6	8/1/2014	Completed
+9/2/2014	Project5	8/2/2014	Completed
+9/3/2014	Project4	8/3/2014	Completed
+8/10/2014	Project3	8/1/2014	Late
+8/11/2014	Project2	8/2/2014	Late
+8/11/2014	Project1	8/3/2014	Late
+		

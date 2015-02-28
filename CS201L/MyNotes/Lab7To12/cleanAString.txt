@@ -1,0 +1,11 @@
+// Cleans the string by removing all spaces and punctuation
+// and converting it to upper case
+void cleanString(string& str)
+{
+	// Erase all punctuation characters
+	str.erase(remove_if(str.begin(), str.end(), ispunct), str.end());
+	// Erase all whitespace characters
+	str.erase(remove_if(str.begin(), str.end(), isspace), str.end());
+	// Convert all characters to uppercase
+	transform(str.begin(), str.end(), str.begin(), toupper);
+}

@@ -1,0 +1,4 @@
+#include <fstream>			// File input/output
+#include <iostream>			// Console input/output
+#include <string>			// string class
+#include <cstdlib>			// For the exit command

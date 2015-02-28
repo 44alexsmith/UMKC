@@ -1,0 +1,15 @@
+Vectors
+	vector <type> variable_name;
+
+Vectors are a built-in library that are basically the same as a dynamic array. You can use the push_back function to store something of type into the vector. For example, a vector<int> scores would let you push integers into the vector by calling scores.push_back(1); (where 1 is any integer). You can retrieve elements like you would with any array by using the [] operator (like cout << scores[0]). There are some other functions that have useful features:
+	begin() – retrieves the first element in the vector
+	end() – retrieves the last element in the vector
+	size() – retrieves the size of the vector
+	empty() – a Boolean if the vector is empty or not
+
+Iterators
+	vector<type>::iterator variable_name;
+	
+
+
+Refer: Assignment 9
