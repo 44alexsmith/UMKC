@@ -1,0 +1,40 @@
+istream& operator>> (istream& inputStream, Matrix& m)
+{
+	for(int i = 0; i < m.rows; i++)
+	{
+		for(int j = 0; j < m.columns; j++)
+		{
+			inputStream >> m.contents[i][j];
+		}
+	}
+	return inputStream;
+}
+
+ostream& operator<< (ostream& outputStream, Matrix& m)
+{
+	for(int i = 0; i < m.rows; i++)
+	{
+		for(int j = 0; j < m.columns; j++)
+		{
+			outputStream << m.contents[i][j] << "\t";
+		}
+		outputStream << endl;
+	}
+	return outputStream;
+}
+
+
+
+const Matrix Matrix::operator+ (const Matrix& rightSide)
+{
+	Matrix result(rows, columns);
+
+	for(int i = 0; i < rows; i++)
+	{
+		for(int j = 0; j < columns; j++)
+		{
+			result.set(i, j, contents[i][j] + rightSide.contents[i][j]);
+		}
+	}
+	return result;
+}

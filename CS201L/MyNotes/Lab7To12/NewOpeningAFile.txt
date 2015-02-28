@@ -1,0 +1,21 @@
+
+//file input loop
+	while(true)
+	{
+		// Grab a line. Should we quit?
+		getline(fin, linein);
+		if(linein == "END")
+			break;
+
+// Show error if input isn't found
+	if(!fin)
+	{
+		cout << "Error opening input file!" << endl;
+		return 1;
+	}
+
+// While not at the end of the file...
+while(!fin.eof())
+{
+ // Grab a line from file
+ getline(fin, lineIn);

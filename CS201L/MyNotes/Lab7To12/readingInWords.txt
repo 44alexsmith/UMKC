@@ -1,0 +1,3 @@
+while(fin >> wordIn)
+
+while(fin >> command) e.g Assignment 8
