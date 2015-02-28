@@ -1,0 +1,45 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   CS101/Program1/.DS_Store
+#	new file:   CS101/Program1/Assignment1.py
+#	new file:   CS101/Program1/TenGeneratedErrors.doc
+#	new file:   CS101/Program2/.DS_Store
+#	new file:   CS101/Program2/AlgorithmAssignment2.docx
+#	new file:   CS101/Program2/Assignment2.py
+#	new file:   CS101/Program2/Thumbs.db
+#	new file:   CS101/Program3/.DS_Store
+#	new file:   CS101/Program3/Algorithm.docx
+#	new file:   CS101/Program3/Algorithm3.docx
+#	new file:   CS101/Program3/Assignment3.py
+#	new file:   CS101/Program3/Program3.pdf
+#	new file:   CS101/Program3/Thumbs.db
+#	new file:   CS101/Program4/.DS_Store
+#	new file:   CS101/Program4/Algorithm4.docx
+#	new file:   CS101/Program4/Assignment4.py
+#	new file:   CS101/Program4/Program4.pdf
+#	new file:   CS101/Program4/Thumbs.db
+#	new file:   CS101/Program5/.DS_Store
+#	new file:   CS101/Program5/Algorithm5.docx
+#	new file:   CS101/Program5/Corrected output.docx
+#	new file:   CS101/Program5/Program 5.pdf
+#	new file:   CS101/Program5/Program5.pdf
+#	new file:   CS101/Program5/Thumbs.db
+#	new file:   CS101/Program5/dailysunspots.txt
+#	new file:   CS101/Program5/xid-4984366_1.txt
+#	new file:   CS101/Program6/Algorithm6.doc
+#	new file:   CS101/Program6/Program6.pdf
+#	new file:   CS101/Program6/find_author.py
+#	new file:   CS101/Program6/solution.py
+#	new file:   CS101/Program7/Algorithm7.doc
+#	new file:   CS101/Program7/Minesweeper.py
+#	new file:   CS101/Program7/Program07.pdf
+#	new file:   CS101/Program7/Result.jpg
+#	new file:   CS101/Program8/Algorithm8.doc
+#	new file:   CS101/Program8/Program8.pdf
+#
+
